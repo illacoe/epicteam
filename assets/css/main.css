@@ -1,5 +1,10 @@
 @import './components/navbar.css';
 @import './components/header.css';
+@import './components/section.css';
+@import './components/staff.css';
+@import './components/contact.css';
+@import './components/footer.css';
+
 
 body {
     margin: 0;

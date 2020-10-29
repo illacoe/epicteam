@@ -5,6 +5,7 @@
     display: flex;
     width: 100%; 
     transition: all 0.3s;
+    padding: 10px 0;
   }
   .navbar__logo{
       display: flex;
@@ -31,7 +32,9 @@
   }
   .desktop-link > * {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
   }
   .desktop-link > *:hover {
     color: #413f3f;

@@ -1,0 +1,31 @@
+.section__staff-1{
+    display: flex;
+    justify-content: center;
+}
+.section__staff-1 > *{
+    padding: 0 100px ;
+}
+.section__staff-resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.section__staff-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section__staff-3{ 
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 10px;
+} 
+
+.section__staff-1, .section__staff-2, .section__staff-3{
+    margin-top: 30px;
+}

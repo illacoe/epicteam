@@ -1,0 +1,60 @@
+.section__contact-4{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.section__contact-img{
+    width: 100px;
+}
+.section__contact-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.section__contact{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 140px;
+}
+.section__staff-mail{
+    background-color: red;
+    color: #ffffff;
+}
+.section__staff-ws{
+    background-color: rgb(72, 177, 59);
+    color: #ffffff;
+}
+.section__staff-mess{
+    background-color: rgb(202, 155, 255);
+    color: #ffffff;
+}
+.section__staff-icon{
+    width: 80px;
+    height: 80px;
+}
+.section__staff-ws:hover,
+.section__staff-mess:hover,
+.section__staff-mail:hover{
+    background-color: rgb(155, 147, 165);
+}
+.section__staff-resume li{
+    list-style: none;
+    display: flex;
+    margin: 10px 0;
+}
+.section__staff-resume button{
+    border-radius: 25px;
+    outline: none;
+
+    border: none;
+}
+.section__staff-mail, .section__staff-ws , .section__staff-mess{
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+}
+.section__staff-mail span, .section__staff-ws span , .section__staff-mess span{
+   width: max-content;
+   padding: 0 30px;
+}
