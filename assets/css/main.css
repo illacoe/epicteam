@@ -1,0 +1,21 @@
+@import './components/navbar.css';
+@import './components/header.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", Helvetica, sans-serif !important;
+  }
+.main{
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 4rem;
+}
+.container{
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
